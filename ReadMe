@@ -1,0 +1,27 @@
+
+
+1. Stock price data can be downloaded by running SP500_ClosingPrices.py or directly from Yahoo Finance.
+
+2. Commodity data can be downloaded from below links:
+
+Oil:
+U.S. Energy Information Administration, Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma [DCOILWTICO], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/DCOILWTICO, April 16, 2025.
+
+Gas:
+U.S. Energy Information Administration, Henry Hub Natural Gas Spot Price [MHHNGSP], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/MHHNGSP, April 16, 2025.
+
+Global commodity:
+International Monetary Fund, Global Price Index of All Commodities [PALLFNFINDEXQ], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/PALLFNFINDEXQ, April 16, 2025.
+
+
+3. Events data can be downloaded from:
+https://figshare.com/articles/dataset/Twitter_event_datasets_2012-2016_/5100460 and then run sentiments.py to obtain sentiments as in folder "Events".
+
+
+4. For MST-Modeling, run MST-Modeling.py
+
+5. Model training and testing can be done by running "main.py"
+
+6. Plots can be visualized by running "Plots.py".
+
+For any issue, please contact us at research.ainet@gmail.com.
