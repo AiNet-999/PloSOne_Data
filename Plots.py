@@ -53,11 +53,11 @@ for m in range(15):
     ax.set_xlabel('Timesteps', fontsize=25) 
     ax.set_ylabel('Price', fontsize=25)  
     
-    # Increase font size for ticks on both axes
+ 
     ax.tick_params(axis='x', labelsize=18, rotation=45)  
     ax.tick_params(axis='y', labelsize=18)  
 
-    # Improve x-axis tick spacing
+
     ax.xaxis.set_major_locator(ticker.MaxNLocator(integer=True))
     ax.xaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f'{int(x)}'))
     n=n+1
